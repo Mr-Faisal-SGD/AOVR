@@ -1,0 +1,17 @@
+.wrapper{
+  max-width: 90rem;
+  padding: 0 20px;
+  margin: auto;
+}
+
+button {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 100rem;
+  cursor: pointer;
+  font-weight: 500;
+  gap: 10px;
+  background: transparent;
+  font-size: 16px;
+}

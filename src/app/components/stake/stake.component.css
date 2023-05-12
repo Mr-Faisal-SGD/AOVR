@@ -1,0 +1,56 @@
+button {
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 100rem;
+  cursor: pointer;
+  font-weight: 500;
+  gap: 10px;
+  background: transparent;
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  margin-top: 200px;
+}
+
+.cal {
+  font-size: 20px;
+  font-weight: 400;
+  color: #D1D5DD;
+}
+
+.value {
+  font-size: 48px;
+  font-family: "Space Grotesk", sans-serif;
+  margin-top: 10px;
+}
+
+span {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #D1D5DD;
+}
+
+.timeleft {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 10px;
+}
+
+.times {
+  font-size: 24px;
+  font-family: "Space Grotesk", sans-serif;
+  background: #FBB03B;
+  border-radius: 100rem;
+  width: 50px;
+  padding: 10px 0;
+  text-align: center;
+  color: #1A1A1A;
+}

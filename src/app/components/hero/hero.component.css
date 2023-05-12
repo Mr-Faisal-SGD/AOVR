@@ -1,0 +1,100 @@
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  background: radial-gradient(
+    34.62% 63.65% at 100% 47.5%,
+    #ed1e79 0%,
+    rgba(237, 30, 121, 0) 100%
+  );
+  z-index: -2;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-top: 50px;
+  background: transparent;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  background: transparent;
+}
+
+button {
+  display: flex;
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 100rem;
+  cursor: pointer;
+  font-weight: 500;
+  gap: 10px;
+  background: transparent;
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.wallet {
+  padding-top: 2px;
+  font-size: 16px;
+}
+
+a {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  position: absolute;
+  width: 805px;
+  height: 690px;
+  left: 920px;
+  top: 0;
+  z-index: -1;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40rem;
+  max-width: 35rem;
+  gap: 40px;
+  cursor: default;
+}
+
+.stake {
+  font-size: 96px;
+  font-weight: 600;
+  margin-bottom: -17px;
+}
+
+span {
+  color: #fbb03b;
+}
+
+.text {
+  font-size: 32px;
+}
+
+.scroll {
+  padding: 15px 0 15px 0;
+  max-width: 200px;
+  justify-content: center;
+}

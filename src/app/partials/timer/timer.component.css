@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.round {
+  font-size: 24px;
+  font-family: "Space Grotesk", sans-serif;
+  background: #FBB03B;
+  border-radius: 100rem;
+  width: 60px;
+  padding: 14px 0;
+  text-align: center;
+  color: #1A1A1A;
+}
+
+.text {
+  font-size: 14px;
+  color: #D1D5DD;
+  margin-top: 7px;
+  text-align: center;
+}

@@ -1,28 +1,30 @@
 <div class="container">
-  <div class="cal">
-    Total Staked at this moment
-    <div class="value">56,669 <span>AOVR</span></div>
-  </div>
-  <div class="cal">
-    Community earnings since last payout
-    <div class="value">3,923 <span>AOVR</span></div>
-  </div>
-  <div class="payout">
-    <div class="cal">Time to next payout</div>
-    <div class="time">
-      <div class="timeleft">
-        <div class="times">02</div>
-        <div class="times">14</div>
-        <div class="times">22</div>
-        <div class="times">32</div>
+  <div class="details">
+    <div class="cal">
+      Total Staked at this moment
+      <div class="value">56,669 <span>AOVR</span></div>
+    </div>
+    <div class="cal">
+      Community earnings since last payout
+      <div class="value">3,923 <span>AOVR</span></div>
+    </div>
+    <div class="payout">
+      <div class="cal">Time to next payout</div>
+      <div class="time">
+        <app-timer time="{{ day }}" text="Days"></app-timer>
+        <app-timer time="{{ hour }}" text="Hours"></app-timer>
+        <app-timer time="{{ minute }}" text="Minutes"></app-timer>
+        <app-timer time="{{ seconds }}" text="Seconds"></app-timer>
       </div>
-      <div class="day">Days Hours Minutes Seconds</div>
+    </div>
+    <div class="buttons">
+      <button class="stake">
+        STAKE AOVR NOW <ng-icon name="lucideArrowUpRight"></ng-icon>
+      </button>
+      <button class="unstake">WITHDRAW AOVR</button>
     </div>
   </div>
-  <div class="buttons">
-    <button class="stake">
-      STAKE AOVR NOW <ng-icon name="lucideArrowUpRight"></ng-icon>
-    </button>
-    <button class="unstake">WITHDRAW AOVR</button>
+  <div class="border">
+    <div class="first">Stake First</div>
   </div>
 </div>

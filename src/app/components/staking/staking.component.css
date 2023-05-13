@@ -1,0 +1,68 @@
+.container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  align-self: center;
+  width: 40rem;
+  letter-spacing: -0.04em;
+  line-height: 30px;
+}
+
+.question {
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.answer {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #D1D5DD;
+}
+
+.span1 {
+  font-weight: 600;
+}
+
+.tokens {
+  margin-top: 60px;
+  max-width: 60rem;
+  font-size: 32px;
+  letter-spacing: -0.08em;
+  line-height: 48px;
+}
+
+.span2 {
+  font-weight: 600;
+  color: #FBB03B;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 100rem;
+  cursor: pointer;
+  font-weight: 500;
+  gap: 10px;
+  background: transparent;
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.shadow {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FBB03B;
+  padding: 50px 0;
+}

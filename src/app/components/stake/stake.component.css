@@ -12,16 +12,23 @@ button {
 
 .container {
   display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+  justify-content: space-between;
+}
+
+.deatils {
+  display: flex;
   flex-direction: column;
   gap: 20px;
   max-width: 500px;
-  margin-top: 200px;
 }
 
 .cal {
   font-size: 20px;
   font-weight: 400;
-  color: #D1D5DD;
+  color: #d1d5dd;
+  margin-top: 30px;
 }
 
 .value {
@@ -31,26 +38,43 @@ button {
 }
 
 span {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  color: #D1D5DD;
+  color: #d1d5dd;
 }
 
-.timeleft {
+.time {
   display: flex;
-  flex-direction: row;
-  gap: 24px;
-  margin-top: 10px;
+  gap: 20px;
 }
 
-.times {
-  font-size: 24px;
-  font-family: "Space Grotesk", sans-serif;
-  background: #FBB03B;
-  border-radius: 100rem;
-  width: 50px;
-  padding: 10px 0;
+.border {
+  align-self: center;
+  border: 200px solid #101014;
+  border-radius: 1rem;
+  margin-top: -60px;
+  z-index: -2;
+}
+
+.first {
+  background-color: #101014;
   text-align: center;
-  color: #1A1A1A;
+  font-size: 64px;
+  padding: 30px 0;
+  color: #303038;
+  font-weight: 600;
+}
+
+.buttons {
+  margin-top: 35px;
+  gap: 20px;
+  display: flex;
+  font-size: 16px;
+}
+
+.stake {
+  background: linear-gradient(90deg, #ed1e79 0%, #fbb03b 100%);
+  border: none;
+  padding: 15px
 }

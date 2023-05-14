@@ -11,9 +11,11 @@ import { StakeComponent } from './components/stake/stake.component';
 import { TimerComponent } from './partials/timer/timer.component';
 import { StakingComponent } from './components/staking/staking.component';
 import { WorkingComponent } from './components/working/working.component';
+import { CardsSectionComponent } from './components/cards-section/cards-section.component';
+import { CardComponent } from './partials/card/card.component';
 
 @NgModule({
-  declarations: [AppComponent, HeroComponent, WrapperComponent, StakeComponent, TimerComponent, StakingComponent, WorkingComponent],
+  declarations: [AppComponent, HeroComponent, WrapperComponent, StakeComponent, TimerComponent, StakingComponent, WorkingComponent, CardsSectionComponent, CardComponent],
   imports: [
     BrowserModule,
     NgIconsModule.withIcons({

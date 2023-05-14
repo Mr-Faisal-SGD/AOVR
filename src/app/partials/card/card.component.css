@@ -4,7 +4,8 @@
   background: #111112;
   border-radius: 1rem;
   padding: 20px;
-  width: 300px;
+  max-width: 327px;
+  width: auto;
   gap: 25px;
 }
 

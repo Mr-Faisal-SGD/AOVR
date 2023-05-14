@@ -6,10 +6,10 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card.component.css'],
 })
 export class CardComponent {
-  @Input() pool_id!: number;
-  @Input() staked!: number;
-  @Input() owed!: number;
-  @Input() available!: number;
+  @Input() pool_id!: string;
+  @Input() staked!: string;
+  @Input() owed!: string;
+  @Input() available!: string;
   @Input() address!: string;
   @Input() rebalance!: boolean;
 }

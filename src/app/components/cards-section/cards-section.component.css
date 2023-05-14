@@ -85,3 +85,21 @@ button {
 .data {
   margin-top: 50px;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.load {
+  justify-content: center;
+  display: flex;
+}
+
+.loadmore {
+  margin-top: 50px;
+  align-self: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}

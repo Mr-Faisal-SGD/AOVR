@@ -41,6 +41,7 @@ button {
   gap: 10px;
   background: transparent;
   font-size: 16px;
+  transition: transform 0.5s;
 }
 
 .wallet {
@@ -98,4 +99,8 @@ span {
   padding: 15px 0 15px 0;
   max-width: 200px;
   justify-content: center;
+}
+
+button:hover {
+  transform: scale(1.05);
 }

@@ -9,3 +9,7 @@
 body {
   background-color: #070707;
 }
+
+div, p {
+  cursor: default;
+}

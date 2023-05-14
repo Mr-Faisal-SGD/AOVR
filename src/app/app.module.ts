@@ -10,9 +10,10 @@ import { WrapperComponent } from './partials/wrapper/wrapper.component';
 import { StakeComponent } from './components/stake/stake.component';
 import { TimerComponent } from './partials/timer/timer.component';
 import { StakingComponent } from './components/staking/staking.component';
+import { WorkingComponent } from './components/working/working.component';
 
 @NgModule({
-  declarations: [AppComponent, HeroComponent, WrapperComponent, StakeComponent, TimerComponent, StakingComponent],
+  declarations: [AppComponent, HeroComponent, WrapperComponent, StakeComponent, TimerComponent, StakingComponent, WorkingComponent],
   imports: [
     BrowserModule,
     NgIconsModule.withIcons({

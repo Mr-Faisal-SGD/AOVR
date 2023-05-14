@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #111112;
+  border-radius: 1rem;
+  padding: 20px;
+  width: 300px;
+  gap: 25px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.aovr {
+  display: flex;
+}
+
+.owed {
+  margin-left: auto;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #d1d5dd;
+  line-height: 30px;
+}
+
+.bold {
+  font-size: 24px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.available {
+  border-bottom: 1px solid #2a2a2c;
+}
+
+.address {
+  color: #0093fe;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  overflow-wrap: break-word;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 100rem;
+  cursor: pointer;
+  font-weight: 500;
+  background: transparent;
+  font-size: 14px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.stake {
+  background: #ed1e79;
+  border: none;
+}

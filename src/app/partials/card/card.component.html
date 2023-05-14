@@ -1,1 +1,24 @@
-<p>card works!</p>
+<div class="container">
+  <p class="name">Pool {{ pool_id }}</p>
+  <div class="data">
+    <div class="aovr">
+      <div class="staked">
+        <p class="text">Total Staked <br><span class="bold">{{ staked }}</span> AOVR</p>
+      </div>
+      <div class="owed">
+        <p class="text">Total Owed <br><span class="bold">{{ owed }}</span> AOVR</p>
+      </div>
+    </div>
+    <div class="available">
+      <p class="text">
+        Available Slots:
+        <span class="bold" style="color: #fbb03b">{{ available }}</span> Slots
+      </p>
+    </div>
+    <p class="address">{{ address }}</p>
+  </div>
+  <div class="buttons">
+    <button **ngIf="rebalance" class="rebalance">REBALANCE</button>
+    <button class="stake">STAKE</button>
+  </div>
+</div>

@@ -8,6 +8,8 @@ button {
   background: transparent;
   font-size: 16px;
   font-family: "Space Grotesk", sans-serif;
+  position: relative;
+  overflow: hidden;
 }
 
 .container {
@@ -74,8 +76,41 @@ span {
 }
 
 .stake {
-  background: linear-gradient(90deg, #ed1e79 0%, #fbb03b 100%);
   border: none;
   padding: 15px;
   display: flex;
+}
+
+.unstake::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: #ed1e79;
+  z-index: -1;
+  transition: 0.8s;
+  border-radius: 0 0 50% 50%;
+}
+
+.unstake:hover::before {
+  height: 180%;
+}
+
+.stake::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #ed1e79 0%, #fbb03b 100%);
+  z-index: -1;
+  transition: 0.8s;
+  border-radius: 0 0 0 0;
+}
+
+.stake:hover::before {
+  height: 0%;
 }

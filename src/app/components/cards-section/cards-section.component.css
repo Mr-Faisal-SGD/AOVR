@@ -89,6 +89,9 @@ button {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 700px;
+  overflow: hidden;
   gap: 30px;
 }
 

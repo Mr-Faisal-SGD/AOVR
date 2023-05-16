@@ -63,7 +63,8 @@ a {
 }
 
 .image {
-  position: absolute;
+  margin-top: -100px;
+  margin-right: -100px;
   width: 805px;
   height: 690px;
   left: 49.5%;
@@ -79,6 +80,7 @@ a {
   max-width: 35rem;
   gap: 40px;
   cursor: default;
+  margin-top: 50px;
 }
 
 .stake {

@@ -3,13 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
-  color: #ffffff;
 }
 
 body {
   background-color: #070707;
 }
 
-div, p {
+div, p, button {
   cursor: default;
+  color: #ffffff;
 }

@@ -105,7 +105,15 @@ span {
   justify-content: center;
 }
 
-button::before {
+.connect {
+  transition: all 0.8s;
+}
+
+.connect:hover {
+  transform: scale(1.05);
+}
+
+.scroll::before {
   content: "";
   position: absolute;
   top: 0;
@@ -118,6 +126,11 @@ button::before {
   border-radius: 0 0 50% 50%;
 }
 
-button:hover::before {
+.scroll:hover::before {
   height: 180%;
+}
+
+.scroll:hover {
+  border-color: black;
+  color: black;
 }

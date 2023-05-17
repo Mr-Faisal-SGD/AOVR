@@ -10,6 +10,7 @@ button {
   font-family: "Space Grotesk", sans-serif;
   position: relative;
   overflow: hidden;
+  transition: all 0.8s;
 }
 
 .container {
@@ -79,6 +80,8 @@ span {
   border: none;
   padding: 15px;
   display: flex;
+  border: 1px solid transparent;
+  transition: all 0.8s;
 }
 
 .unstake::before {
@@ -92,6 +95,11 @@ span {
   z-index: -1;
   transition: 0.8s;
   border-radius: 0 0 50% 50%;
+}
+
+.unstake:hover {
+  border-color: black;
+  color: black;
 }
 
 .unstake:hover::before {
@@ -113,4 +121,9 @@ span {
 
 .stake:hover::before {
   height: 0%;
+}
+
+.stake:hover {
+  color: #ed1e79;
+  border-color: #ed1e79;
 }

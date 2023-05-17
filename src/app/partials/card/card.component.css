@@ -62,6 +62,7 @@ button {
   background: transparent;
   font-size: 14px;
   font-family: "Space Grotesk", sans-serif;
+  transition: all 0.8s;
 }
 
 .buttons {
@@ -72,4 +73,8 @@ button {
 .stake {
   background: #ed1e79;
   border: none;
+}
+
+button:hover {
+  transform: scale(0.95);
 }

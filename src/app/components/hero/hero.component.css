@@ -150,3 +150,66 @@ a:after {
 a:hover:after {
   width: 100%;
 }
+
+@media (max-width: 1200px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .image {
+    margin-top: 0;
+    margin-right: 0;
+    z-index: -1;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  .image1 {
+    width: 90%;
+  }
+
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 140%;
+    left: 0px;
+    top: 0px;
+
+    background: radial-gradient(
+      100.59% 29.94% at 50% 100%,
+      #ed1e79 0%,
+      rgba(237, 30, 121, 0) 100%
+    );
+    z-index: -2;
+  }
+
+  .info {
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    height: 25rem;
+    max-width: auto;
+    gap: 30px;
+    cursor: default;
+    margin-top: 50px;
+  }
+
+  .stake {
+    text-align: center;
+    font-size: 76px;
+    font-weight: 600;
+    margin-bottom: -17px;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .scroll {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

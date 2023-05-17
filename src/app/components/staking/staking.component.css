@@ -112,3 +112,19 @@ button {
 button:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 1200px) {
+  .details {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  .tokens {
+    text-align: center;
+  }
+}

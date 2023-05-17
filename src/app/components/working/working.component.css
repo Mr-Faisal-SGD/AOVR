@@ -7,6 +7,7 @@
 .imgs {
   display: flex;
   justify-content: space-between;
+  gap: 30px
 }
 
 .text {
@@ -123,4 +124,25 @@ button {
 
 .browse:hover::before {
   height: 180%;
+}
+
+@media (max-width: 1200px) {
+  .imgs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  .p {
+    margin: auto;
+  }
+  .point {
+    text-align: center;
+  }
+  .buttons {
+    justify-content: center;
+  }
 }

@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgIconsModule } from '@ng-icons/core';
 import { featherArrowDownRight } from '@ng-icons/feather-icons';
 import { ionLogoDiscord, ionLogoInstagram, ionLogoTwitter } from '@ng-icons/ionicons';
+import { heroBars3 } from '@ng-icons/heroicons/outline';
 import { lucideArrowDownRight, lucideArrowUpRight } from '@ng-icons/lucide';
 
 import { AppComponent } from './app.component';
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
       lucideArrowUpRight,
       ionLogoDiscord,
       ionLogoInstagram,
-      ionLogoTwitter
+      ionLogoTwitter,
+      heroBars3
     }),
   ],
   providers: [],

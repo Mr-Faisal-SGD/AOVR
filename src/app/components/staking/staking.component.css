@@ -127,4 +127,8 @@ button:hover {
   .tokens {
     text-align: center;
   }
+
+  .tokens {
+    max-width: 100%;
+  }
 }

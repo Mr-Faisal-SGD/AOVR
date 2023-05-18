@@ -1,10 +1,28 @@
 <div class="container">
   <div class="header">
-    <img src="../../../assets/logo.png" />
+    <img class="all" src="../../../assets/logo.png" />
     <div class="links">
-      <a>About</a>
-      <a>How it Works</a>
-      <a>Staking</a>
+      <ul class="test">
+        <li><a>About</a></li>
+        <li><a>How it Works</a></li>
+        <li><a>Staking</a></li>
+      </ul>
+      <button class="connect">
+        <img style="cursor: pointer" src="../../../assets/phantom.png" />
+        <p class="wallet">CONNECT PHANTOM WALLET</p>
+      </button>
+      <input type="checkbox" id="check" />
+      <label for="check" class="bars">
+        <ng-icon name="heroBars3" size="30px"></ng-icon>
+      </label>
+    </div>
+    <div class="dropdown">
+      <img class="all" src="../../../assets/logo.png" />
+      <ul class="link">
+        <li><a>About</a></li>
+        <li><a>How it Works</a></li>
+        <li><a>Staking</a></li>
+      </ul>
       <button class="connect">
         <img style="cursor: pointer" src="../../../assets/phantom.png" />
         <p class="wallet">CONNECT PHANTOM WALLET</p>
@@ -13,13 +31,17 @@
   </div>
   <div class="main">
     <div class="info">
-      <div class="stake">Stake <br><span>ALLOVR.</span></div>
+      <div class="stake">Stake <br /><span>ALLOVR.</span></div>
       <p class="text">
         This is the best time to get the earnings you dream of.
       </p>
-      <button class="scroll">SCROLL DOWN <ng-icon name="lucideArrowDownRight" size="20"/></button>
+      <button class="scroll">
+        SCROLL DOWN <ng-icon name="lucideArrowDownRight" size="20" />
+      </button>
     </div>
-    <div class="image"><img class="image1" src="../../../assets/hero-illustration.png" /></div>
+    <div class="image">
+      <img class="image1" src="../../../assets/hero-illustration.png" />
+    </div>
   </div>
 </div>
 <div class="background"></div>
